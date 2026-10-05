@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: flux-solo-app-deployment
+  namespace: default
   labels:
     app: flux-solo-app
 spec:
