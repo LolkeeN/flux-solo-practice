@@ -2,6 +2,7 @@ apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: app
+  namespace: default
 spec:
   url: https://github.com/LolkeeN/flux-solo-practice-application
   ref:
