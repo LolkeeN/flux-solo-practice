@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: flux-solo-app
-          image: lolkeenn/flux-solo-app:0.0.4
+          image: lolkeenn/flux-solo-app:0.0.3
           ports:
             - containerPort: 8080
