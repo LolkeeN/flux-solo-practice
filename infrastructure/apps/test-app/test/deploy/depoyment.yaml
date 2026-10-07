@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: flux-solo-app
-          image: docker.io/lolkeenn/flux-solo-app:0.0.8 # {"$imagepolicy": "flux-system:flux-solo-app"}
+          image: docker.io/lolkeenn/flux-solo-app:0.0.9 # {"$imagepolicy": "flux-system:flux-solo-app"}
           ports:
             - containerPort: 8080
