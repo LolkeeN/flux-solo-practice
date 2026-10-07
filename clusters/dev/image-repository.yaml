@@ -1,8 +1,0 @@
-apiVersion: image.toolkit.fluxcd.io/v1
-kind: ImageRepository
-metadata:
-  name: test-app
-  namespace: flux-system
-spec:
-  image: docker.io/lolkeenn/flux-solo-app
-  interval: 1m

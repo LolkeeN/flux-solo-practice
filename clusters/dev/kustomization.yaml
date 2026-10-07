@@ -9,8 +9,3 @@ spec:
   path: ./infrastructure/apps/test-app/test
   interval: 5m
   prune: true
-
-resources:
-  - ./image-repository.yaml
-  - ./image-policy.yaml
-  - ./image-update-automation.yaml
