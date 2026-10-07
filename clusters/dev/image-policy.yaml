@@ -1,11 +1,11 @@
 apiVersion: image.toolkit.fluxcd.io/v1
 kind: ImagePolicy
 metadata:
-  name: flux-solo-app
+  name: test-app
   namespace: flux-system
 spec:
   imageRepositoryRef:
-    name: flux-solo-app
+    name: test-app
   filterTags:
     pattern: '^[0-9]+\.[0-9]+\.[0-9]+$'
   policy:
